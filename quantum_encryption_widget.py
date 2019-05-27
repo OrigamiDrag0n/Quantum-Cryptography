@@ -122,7 +122,7 @@ def main():
         
     def nothing(event):   #Doesn't affect grating angle: just iterates again
         global word
-        word = quantum_decode(quantum_encode(string, basis, perturbation), grating) #This has problems with some characters, so \r does not work. Looks pretty cool in terminal, though.        
+        word = quantum_decode(quantum_encode(string, basis, perturbation), grating)        
         draw(c, text_frame, word)
 
     def toggle(event):                                       #Flips the basis_show (called by 'b')
