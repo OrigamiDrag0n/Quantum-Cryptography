@@ -3,7 +3,6 @@
 ##The idea is: you send a polarised photon from a grating (which is referred to as the basis which is in red), and another recieves it (reciever, which is in blue).
 ##The bit is considered a 0 if it is parallel to the grate, and 1 if it is perpendicular (in practice, you would use a beam splitter and two perpendicular polarising gratings.
 ##The probability of bit corruption is sin(angle_difference)**2, which is the crux of the code. ALL ANGLES ARE RADIANS (We'll have none of this degree crap).
-##To work, open in terminal; the code for removing a line works a lot better there, looking really impressive (hacker-y) - although beware of annoying noises, and click the panel to initialise.
 ##Currently working on a version with images and/or sound (just to see if that works)
 
 ##The Modules
